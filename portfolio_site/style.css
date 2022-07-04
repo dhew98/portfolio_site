@@ -8,6 +8,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 45px;
+}
+
 p {
     line-height: 1.5rem;
     color: grey;
@@ -20,13 +24,23 @@ p {
 .half-width {
     width: 50%;
     padding-left: 7%;
+
+}
+
+.experienceitem {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 20px gray;
+
 }
 
 .half-width img {
     width: 90%;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 200px;
 }
@@ -49,4 +63,22 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full {
+    border-left: 10px solid blue;
+}
+
+#baby {
+    border-left: 10px solid crimson;
+}
+
+footer p {
+    text-align: center;
 }
